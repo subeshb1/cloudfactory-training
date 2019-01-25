@@ -1,0 +1,27 @@
+<div class="container"> 
+<h1>Books#index</h1>
+
+<p><%= @title %></p>
+<table>
+<thead>
+<tr>
+<th>S.N.</th>
+<th>Title</th>
+<th>Author</th>
+<th>Publisher</th>
+<th>Genre</th>
+</thead>
+<tbody>
+</tr>
+<% for i in 1..100%>
+ <tr>
+ <td><%= i %></td>
+ <td><%= Faker::Book.title%></td>
+  <td><%= Faker::Book.author%> </td>
+  <td><%= Faker::Book.publisher  %></td>
+  <td><%= Faker::Book.genre %></td>
+  </tr>
+<%end%>
+</tbody>
+</table>
+</div>

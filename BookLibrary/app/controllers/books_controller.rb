@@ -1,8 +1,8 @@
+# Class
 class BooksController < ApplicationController
-  def home; end
-  
-  def data
-     
+  def index
+    @title = 'List of books in Library'
   end
 
+  def new; end
 end
