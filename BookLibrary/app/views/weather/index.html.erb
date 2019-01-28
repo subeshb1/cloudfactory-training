@@ -1,0 +1,32 @@
+<h1>Current Weather</h1>
+
+<h2>From First API</h2>
+<h3> Temp: <%= @first_celcius %></h3>
+
+<h2>From Second API</h2>
+<h3> Temp: <%= @second_celcius %></h3>
+
+<h2>Average: <%= @average_temp %> </h2>
+
+<table>
+  <thead>
+    <th>ID</th>
+    <th>Open Weather</th>
+    <th>Dark Sky</th>
+    <th>Average</th>
+    <th>Date</th>
+  </thead>
+  <div class="container">
+  <tbody>
+    <%for record in @previous_weathers%>
+      <tr>
+        <td><%= record.id%> </td>
+        <td><%= record.temp1%></td>
+        <td><%= record.temp2%></td>
+        <td><%= record.average%></td>
+        <td><%= record.created_at%></td>
+      </tr>
+      <%end%>
+  </tbody>
+</table>
+</div>
