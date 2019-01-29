@@ -1,0 +1,11 @@
+data = [[ "SN", "First Name", "Middle Name", "Last Name", "DOB"],
+["1", "John","","Doe", "1996-03-29"],
+["2", "Ram", "Bd", "Magar", "1990-03-29"],
+["3", "Daenerys","","Targaryen", "1991-03-29"],
+[ "4", "Tyrion","","Lannister", "1988-03-29"]]
+
+
+ file = File.new('person_list.csv','w')
+data.each do |line|
+  file.puts (line.join(','))
+end
