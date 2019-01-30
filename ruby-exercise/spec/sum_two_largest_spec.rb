@@ -1,4 +1,4 @@
-require '4'
+require 'sum_two_largest'
 describe SumTwoLargest do
   describe '#greater_index' do
     it 'returns largest number index' do

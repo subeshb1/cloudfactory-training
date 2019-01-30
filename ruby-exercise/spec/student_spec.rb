@@ -1,4 +1,4 @@
-require '9'
+require 'student'
 
 describe Student do
   let(:ram) {Student.new('Ram','A')}

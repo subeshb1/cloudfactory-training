@@ -1,4 +1,4 @@
-require '8'
+require 'string_length_hash'
 
 describe StringLengthHash do
   describe '#generate' do

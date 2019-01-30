@@ -1,4 +1,4 @@
-require '1'
+require 'sum_array'
 
 describe SumArray do
   let(:test_data){

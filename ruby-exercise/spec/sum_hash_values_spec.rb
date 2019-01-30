@@ -1,4 +1,4 @@
-require '2'
+require 'sum_hash_values'
 describe SumHashValues do
   describe '#sum' do
     let(:test_data) {

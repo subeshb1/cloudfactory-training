@@ -1,4 +1,4 @@
-require '3'
+require 'sort'
 
 describe Sort do
   describe '#sort_numbers' do

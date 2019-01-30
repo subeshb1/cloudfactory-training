@@ -1,4 +1,4 @@
-require '6'
+require 'fizz_buzz'
 
 describe FizzBuzz do
   describe '#is_fizz?' do

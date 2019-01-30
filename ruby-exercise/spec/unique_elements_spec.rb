@@ -1,4 +1,4 @@
-require '7'
+require 'unique_elements'
 describe UniqueElements do
   describe '#generate' do
     context 'when an array of keys are passed' do

@@ -1,4 +1,4 @@
-require '10'
+require 'super_class'
 
 describe SuperClass do
   describe '#child_count' do

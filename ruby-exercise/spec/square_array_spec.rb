@@ -1,4 +1,4 @@
-require '5'
+require 'square_array'
 
 describe SquareArray do
   describe '#square' do

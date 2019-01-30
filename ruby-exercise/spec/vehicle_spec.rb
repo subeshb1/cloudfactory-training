@@ -1,4 +1,4 @@
-require '11'
+require 'vehicle'
 
 
 describe Vehicle do
